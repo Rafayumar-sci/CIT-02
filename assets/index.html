@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live View Page -  589 lugx gaming Template</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+
+        #sheet {
+            background: url("banner-bg.jpg");
+            position: absolute;
+            top: 0;
+            z-index: -1;
+            height: 953px;
+            width: 100%;
+            border-bottom-left-radius: 150px;
+            border-bottom-right-radius: 150px;
+        }
+
+
+
+        header {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 1113px;
+            margin: 0% auto 0% auto;
+            padding: 9px 0px;
+            top: 30px;
+            z-index: 1;
+            /* background: #0171f9; */
+        }
+
+        header img {
+            height: auto;
+            width: 155px;
+        }
+
+        header nav {
+            display: flex;
+        }
+
+        header nav ul {
+            display: flex;
+        }
+
+        header nav li {
+            list-style: none;
+            margin: 16px 30px;
+        }
+
+        header nav li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        header ul #l1 a {
+            background-color: #1b7ffa;
+            border-radius: 50px;
+            padding: 11px 25px;
+        }
+
+        header nav button {
+            background-color: #ee626b;
+            border: none;
+            color: white;
+            height: 40px;
+            padding: 0px 24px;
+            font-size: 15px;
+            border-radius: 41px;
+            margin: 8px 0px 8px 24px;
+            cursor: pointer;
+        }
+
+
+
+
+        #hero {
+            display: flex;
+            /* border: 1px solid white; */
+            margin: 159px auto 0% auto;
+            width: 1113px;
+        }
+
+        #hero .d {
+            width: 50%;
+            /* border: 1px solid black; */
+        }
+
+        #hero #d1 h3 {
+            color: white;
+            font-size: 21px;
+            font-weight: 500;
+        }
+
+        #hero #d1 #cl {
+            color: white;
+            width: 415px;
+            /* border: 1px solid white; */
+            margin: 10px 0px 35px 0px;
+        }
+
+        #hero #d1 #cl span {
+            color: white;
+            font-weight: 700;
+            font-size: 45px;
+            line-height: 56px;
+        }
+
+        #hero #d1 #cl img {
+            height: auto;
+            width: 204px;
+            position: relative;
+            top: 12px;
+            right: 20px;
+        }
+
+        #hero #d1 h4 {
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+            width: 548px;
+            line-height: 29px;
+        }
+
+        #hero #d1 form {
+            display: flex;
+            margin: 90px 0px 0px 0px;
+        }
+
+        #hero #d1 form input {
+            background-color: white;
+            border: none;
+            padding: 14px 22px;
+            width: 275px;
+            border-radius: 32px;
+        }
+
+        #hero #d1 form button {
+            border: none;
+            background-color: #ee626b;
+            color: white;
+            padding: 0px 27px;
+            border-radius: 38px;
+            margin: 0px 0px 0px -45px;
+            font-weight: 500;
+        }
+
+        #hero #d2 img {
+            height: auto;
+            width: 364px;
+            margin: -33px 0% 0% auto;
+            display: block;
+            border-radius: 28px;
+        }
+
+        #d2 #s1 {
+            position: relative;
+            background-color: #008af8;
+            color: white;
+            font-weight: 600;
+            padding: 4px 15px;
+            left: 84%;
+            top: 5%;
+            font-size: 22px;
+            border-radius: 39px;
+        }
+
+        #d2 #s2 {
+            position: relative;
+            background-color: #ee626b;
+            color: white;
+            font-weight: 600;
+            padding: 31px 11px;
+            left: 30%;
+            bottom: 10%;
+            font-size: 30px;
+            border-radius: 75px;
+        }
+
+
+
+
+
+
+
+
+        #cards {
+            display: flex;
+            /* border: 1px solid white; */
+            justify-content: space-between;
+            margin: 135px auto 50% auto;
+            width: 1113px;
+        }
+
+        #cards .box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            width: 264px;
+            border-radius: 25px;
+            padding: 38px 0vh;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+            cursor: pointer;
+        }
+
+        #cards .box:hover i {
+            background-color: #ee626b;
+            transition: 0.3s all;
+        }
+
+        #cards .box i {
+            background-color: #0071f8;
+            color: white;
+            padding: 22px 22px;
+            font-size: 40px;
+            border-radius: 63px;
+        }
+
+        #cards .box p {
+            font-weight: 600;
+            margin: 3vh 0vh 0vh 0vh;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <img src="logo (1).png" alt="Logo">
+
+        <nav>
+
+            <ul>
+                <li id="l1"><a href="">Home</a></li>
+                <li><a href="">Our Shop</a></li>
+                <li><a href="">Product Details</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+
+            <button>SIGN IN</button>
+
+        </nav>
+
+    </header>
+
+    <div id="sheet"></div>
+
+
+
+
+    <section id="hero">
+
+
+        <div id="d1" class="d">
+
+            <h3>WELCOME TO LUGX</h3>
+
+            <div id="cl">
+                <span>BEST GAMING SITE EVER!</span> <img src="caption-dec.png" alt="img">
+            </div>
+
+            <h4>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and
+                use this layout for commercial purposes. Please tell your friends about TemplateMo.</h4>
+
+            <form action="">
+
+                <input type="text" name="" id="" placeholder="Type Something">
+                <button>SEARCH NOW</button>
+
+            </form>
+
+        </div>
+
+
+        <div id="d2" class="d">
+
+            <span id="s1">$22</span>
+
+            <img src="banner-image.jpg" alt="img">
+
+            <span id="s2">-40%</span>
+
+
+        </div>
+
+    </section>
+
+
+    <section id="cards">
+
+        <div class="box">
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+            <p>FREE STORAGE</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-user"></i>
+            <p>USER MORE</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-circle-play"></i>
+            <p>REPLY READY</p>
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-window-maximize"></i>
+            <p>EASY LAYOUT</p>
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>
