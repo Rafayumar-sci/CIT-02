@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+#jars-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin: 10%;
+
+
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10%;
+    width: 50%;
+
+}
+
+.image {
+    width: 50%;
+}
+
+
+.para p {
+    width: 60%;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(110, 110, 110);
+
+}
+
+.para h1 {
+    width: 60%;
+    color: rgb(40, 38, 45);
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.para button {
+padding: 15px 30px;
+background-color: white;
+border: 2px solid #452b78;
+color: #452b78;
+font-size: 15px;
+font-weight: 700;
+
+}
+
+.para button:hover {
+    background-color: #452b78;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+footer

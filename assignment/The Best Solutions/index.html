@@ -4,13 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Best Solutions</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
+    <title>The Best Solutions</title>
+    <link rel="stylesheet" href="style.css">
 
     <style>
+        /* ========================================
+           GLOBAL STYLES
+           ======================================== */
         * {
             margin: 0;
             padding: 0;
@@ -18,12 +26,18 @@
 
         }
 
+        /* ========================================
+           HERO SECTION
+           ======================================== */
         #hero {
             height: 100vh;
             background: url("assets/bg-1-1700x803.jpg") center/cover no-repeat;
             position: relative;
         }
 
+        /* ========================================
+           NAVBAR STYLES
+           ======================================== */
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -52,6 +66,9 @@
             font-size: 15px;
         }
 
+        /* ========================================
+           HERO CONTENT STYLES
+           ======================================== */
         .plant-img {
             display: flex;
             justify-content: right;
@@ -119,8 +136,125 @@
 
         }
 
-    </style>
 
+        /* ========================================
+           ABOUT SECTION STYLES
+           ======================================== */
+        #about {
+            display: flex;
+            justify-content: space-between;
+            margin: 76px auto 0 auto;
+            width: 1168px;
+        }
+
+
+        #about .box {
+            width: 50%;
+        }
+
+        #about .box img {
+            height: auto;
+            width: 501px;
+        }
+
+        #about #b2 #p1 {
+            color: #959595;
+            font-size: 15px;
+            position: absolute;
+            text-align: center;
+            letter-spacing: 2px;
+
+        }
+
+        #about #b2 #line {
+            background-color: #4d5afe;
+            display: block;
+            height: 3px;
+            width: 406px;
+            margin: -11px -8px 20px -142px;
+        }
+
+        #about #b2 h2 {
+            color: #404044;
+            font-size: 32px;
+            padding: 35px 0px 28px 0px;
+        }
+
+        #about #b2 h2 span {
+            color: #4d5afe;
+        }
+
+        #about #b2 .p2 {
+            color: #878484;
+            padding: 18px 78px 0px 0px;
+            margin: 17px 50px 15px 0px;
+            text-align: justify;
+            line-height: 30px;
+            letter-spacing: 2px;
+        }
+
+        #b2 {
+            font-family: poppins, sans-serif;
+
+        }
+
+        #b2 .p2o {
+            font-family: sans-serif;
+            font-weight: bold;
+            color: black;
+            line-height: 30px;
+            margin: 0px 20% 0px 0px;
+            padding: 0px 0px 30px 0px;
+        }
+
+        #about .box button {
+            border: none;
+            background-color: #4d5afe;
+            padding: 20px 40px;
+            border-radius: 30px;
+            color: white;
+            font-family: inherit;
+            font-weight: 700;
+            letter-spacing: 5px;
+        }
+
+        /* features section */
+
+        #features {
+            background-color: lightblue;
+            height: 100vh;
+            width: 90%;
+            margin: auto;
+
+        }
+
+        .icons-features {
+            color: #5f6afb;
+        }
+
+        .feature-content {
+            display: flex;
+            margin: 10% 0;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .feature-box {
+            display: flex;
+            flex-direction: column;
+            padding: 10% 30px;
+            background-color: red;
+        }
+
+        .other {
+            display: flex;
+
+        }
+
+        .first {
+            display: flex;
+        }
+    </style>
 
 
 </head>
@@ -172,49 +306,114 @@
 
     </section>
 
-    <section></section>
 
-    <!-- <section id="about-us">
 
-        <div id="home1">
-            <div>
-                <img src="assets/home-1-570x703.jpg" alt="">
-            </div>
-        </div>
 
-        <div id="About2">
-            <div class="head1">
-                <h4>ABOUT US</h4>
-            </div>
 
-            <div class="hhh">
-                <h2>What We Do</h2>
-            </div>
 
-            <div class="bline">
-                <h2>______________________</h2>
-            </div>
+    <section id="about">
 
-            <div class="para1">
-                <p>Small or big, your business will love our financial help and business consultations! We are happy
-                    when
-                    our clients are too... Actually, this is quite simple to achieve - because each time we help them in
-                    sorting out different accounting intricacies or save the day before filing the taxes, they are happy
-                    indeed! And so are we!</p>
-            </div>
 
-            <div class="para2">
-                <p>We have over fifteen years of successful experience in financial sphere in the US business market.
-                </p>
-            </div>
-
-            <div class="button">
-                <button>READ MORE</button>
-            </div>
+        <div class="box" id="b1">
+            <img src="assets/home-1-570x703.jpg" alt="">
         </div>
 
 
-    </section> -->
+        <div class="box" id="b2">
+
+            <p id="p1">ABOUT US</p>
+
+            <h2>What We <span>Do</span></h2>
+
+            <span id="line"></span>
+
+
+            <p class="p2"> Small or big, your business will love our financial help and business consultations! We are
+                happy
+                when
+                our clients are too... Actually, this is quite simple to achieve - because each time we help them in
+                sorting out different accounting intricacies or save the day before filing the taxes, they are happy
+                indeed! And so are we!</p>
+
+            <p class=" p2o"> We have over fifteen years of successful experience in financial sphere in the US
+                business
+                market.</p>
+
+
+            <button>READ MORE</button>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="features">
+
+        <div class=" feature-content">
+
+            <div class="our-features">
+                <h5>OUR FEATURES</h5>
+                <h2>Why Businesses <span>Choose us</span></h2>
+                <p>With over 20 years of experience in business consulting, we have a lot to offer to our clients. Here
+                    are some reasons why companies worldwide choose us.</p>
+                <div class="feature-box">
+                    <div class="first">
+
+                        <div class="box-1">
+                            <div class="inov-sol">
+                                <i class="fa-solid fa-lightbulb-gear" class="icons-features"></i>
+                                <h3>INNOVATIVE SOLUTONS </h3>
+
+                            </div>
+                            <h4>Our services and solutions are built on business innovations.</h4>
+                        </div>
+
+                        <div class="box-2">
+                            <div class="strat-think">
+                                <i class="fa-solid fa-bullseye-arrow" class="icons-features"></i>
+                                <h3>STRATEGIC THINKING</h3>
+                            </div>
+                            <h4>ConsultBiz works strategically to forge the best path for your business.</h4>
+
+                        </div>
+                    </div>
+                    <div class="other">
+
+                        <div class="box-3">
+                            <div class="exp-team">
+                                <i class="fa-graphite fa-thin fa-users" class="icons-features"></i>
+                                <h3>Experienced Team</h3>
+                            </div>
+                            <h4>We employ the best consultants with more than 10 years of experience.</h4>
+                        </div>
+
+                        <div class="box-4">
+                            <div class="crtv-aprch">
+                                <i class="fa-sharp fa-thin fa-handshake"></i>
+                                <h3>CREATIVE APPROACH</h3>
+                            </div>
+                            <h4>Every project we work on is based on the creative solutions of any issues.</h4>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="image2">
+                <img src="Assets/home-2-636x480.jpg" alt="image" style="height: 240; ">
+            </div>
+
+        </div>
+
+
+    </section>
+
+
 
 </body>
 
